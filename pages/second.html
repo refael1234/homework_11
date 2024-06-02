@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Page</h1>
+        <form method="post" action="/registeration" onsubmit=" return check()">
+            <label for="username">Username:</label>
+            <input type="text" id="user" name="username" placeholder="user name">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" >
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" >
+
+            <button type="submit">sing in</button>
+        </form>
+    </div>
+    <script src="second.js"></script>
+</body>
+</html>
